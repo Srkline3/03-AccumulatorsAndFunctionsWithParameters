@@ -32,21 +32,22 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #
 #     c. What is the default height of a RoseWindow?
 #        (Use the HOVER trick to determine the answer to this question.)
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            300
 #
 #     d. Write a line of code that construct a RoseWindow object
 #        whose height is 100:  (Use the HOVER trick to figure it out)
-#            window = rg.RoseWindow(100
+#            window = rg.RoseWindow(height = 100)
 #
 #     e. Use the DOT trick to answer the following:
 #
 #          -- Write the names of two types of graphics objects that
 #             you can construct OTHER than Circle and Point:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
-#
+#              rg.Keyboard
+#              rg.Mouse
 #          -- Write the names of three METHODs that Circle objects have:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
-#
+#                rg.Circle.clone
+#                rg.Circle.move_by
+#                rg.Circle.attach_to
 #          -- Write the names of three INSTANCE VARIABLEs that Circle
 #             objects have:
 #                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
