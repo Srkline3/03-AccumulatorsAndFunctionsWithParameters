@@ -268,7 +268,23 @@ def run_test_fancy_sums_of_digits():
     # your 2nd and 3rd tests but READ THOSE TEST CASES CAREFULLY
     # in the doc-string to be sure that you understand the specification.
     # -------------------------------------------------------------------------
+    # Test 1
+    expected = 1
+    actual = fancy_sums_of_digits(10)
+    print('Test 1 expected: ', expected)
+    print('       actual: ', actual)
 
+    # Test 2
+    expected = 1
+    actual = fancy_sums_of_digits(0)
+    print('Test 2 expected: ', expected)
+    print('       actual: ', actual)
+
+    # Test 2
+    expected = 1
+    actual = fancy_sums_of_digits(7)
+    print('Test 2 expected: ', expected)
+    print('       actual: ', actual)
 
 def fancy_sums_of_digits(n):
     """
